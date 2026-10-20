@@ -1,0 +1,59 @@
+.primary-button, .secondary-button {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 9px;
+  padding: 8px 13px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background .15s, opacity .15s, box-shadow .15s;
+}
+.primary-button { background: #059669; color: white; }
+.primary-button:hover { background: #047857; }
+.secondary-button { border: 1px solid rgb(0 0 0 / .09); background: white; color: #52525b; }
+.secondary-button:hover { background: #f4f4f5; }
+.primary-button:disabled, .secondary-button:disabled { cursor: not-allowed; opacity: .4; }
+button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid #10b981; outline-offset: 3px; }
+.system-scroll, .chat-transcript { scrollbar-width: thin; scrollbar-color: #d4d4d8 transparent; }
+.markdown-response { min-width: 0; overflow-wrap: anywhere; color: #52525b; font-size: 14px; line-height: 1.75; }
+.markdown-response > :first-child { margin-top: 0; }
+.markdown-response > :last-child { margin-bottom: 0; }
+.markdown-response p { margin: 0 0 .85em; }
+.markdown-response h1, .markdown-response h2, .markdown-response h3, .markdown-response h4, .markdown-response h5, .markdown-response h6 { margin: 1.2em 0 .5em; color: #18181b; font-weight: 600; line-height: 1.45; }
+.markdown-response h1 { font-size: 1.25em; }
+.markdown-response h2 { font-size: 1.15em; }
+.markdown-response h3 { font-size: 1.05em; }
+.markdown-response strong { color: #27272a; font-weight: 600; }
+.markdown-response ul, .markdown-response ol { margin: .6em 0 1em; padding-left: 1.4em; }
+.markdown-response ul { list-style-type: disc; }
+.markdown-response ol { list-style-type: decimal; }
+.markdown-response li { padding-left: .15em; margin: .3em 0; }
+.markdown-response li > p { margin: .2em 0; }
+.markdown-response blockquote { margin: 1em 0; padding: .3em 1em; border-left: 3px solid #10b981; background: rgb(16 185 129 / .04); }
+.markdown-response a { color: #047857; text-decoration: underline; text-underline-offset: 3px; }
+.markdown-response pre { max-width: 100%; overflow-x: auto; margin: 1em 0; border: 1px solid rgb(0 0 0 / .08); border-radius: 8px; background: #f4f4f5; padding: 12px; font-size: 12px; }
+.markdown-response :not(pre) > code { border-radius: 4px; background: #f4f4f5; padding: 2px 5px; font-size: .87em; }
+.markdown-response .markdown-table { max-width: 100%; overflow-x: auto; margin: 1em 0; border: 1px solid rgb(0 0 0 / .08); border-radius: 8px; }
+.markdown-response table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; }
+.markdown-response th, .markdown-response td { border-bottom: 1px solid rgb(0 0 0 / .07); padding: 9px 12px; min-width: 90px; }
+.markdown-response th { background: #f4f4f5; font-weight: 600; }
+.markdown-response tr:last-child td { border-bottom: 0; }
+.markdown-response hr { margin: 1em 0; border-color: rgb(0 0 0 / .08); }
+.thinking-dot { display: block; width: 5px; height: 5px; border-radius: 50%; background: #10b981; animation: thinking 1.2s infinite ease-in-out; }
+.thinking-dot:nth-child(2) { animation-delay: .15s; }
+.thinking-dot:nth-child(3) { animation-delay: .3s; }
+.stream-cursor { display: inline-block; width: 5px; height: 14px; margin-top: 6px; border-radius: 2px; background: #10b981; animation: thinking 1s infinite; }
+@keyframes thinking { 0%, 80%, 100% { opacity: .3; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-3px); } }
+@media (prefers-reduced-motion: reduce) { .thinking-dot, .stream-cursor { animation: none; } }
+@media (prefers-color-scheme: dark) {
+  .secondary-button { border-color: rgb(255 255 255 / .12); background: rgb(255 255 255 / .03); color: #a1a1aa; }
+  .secondary-button:hover { background: rgb(255 255 255 / .07); }
+  .system-scroll, .chat-transcript { scrollbar-color: #3f3f46 transparent; }
+  .markdown-response { color: #b9bdbb; }
+  .markdown-response h1, .markdown-response h2, .markdown-response h3, .markdown-response h4, .markdown-response h5, .markdown-response h6, .markdown-response strong { color: #ededed; }
+  .markdown-response a { color: #6ee7b7; }
+  .markdown-response pre, .markdown-response :not(pre) > code, .markdown-response th { background: rgb(255 255 255 / .05); }
+  .markdown-response pre, .markdown-response .markdown-table, .markdown-response th, .markdown-response td, .markdown-response hr { border-color: rgb(255 255 255 / .1); }
+}
