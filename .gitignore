@@ -1,0 +1,15 @@
+# Entorno
+.env
+.env.local
+.env.*.local
+./api/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Web
+web/node_modules/
+web/.next/

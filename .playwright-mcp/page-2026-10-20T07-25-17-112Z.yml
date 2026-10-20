@@ -1,0 +1,62 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e9]: Specter
+        - generic [ref=e10]: /
+        - generic [ref=e11]: Diagnostics
+      - generic [ref=e12]:
+        - generic [ref=e13]: Conectando
+        - button "Actualizar telemetría" [disabled] [ref=e15]:
+          - generic [ref=e19]: Actualizar
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Telemetría en vivo
+        - heading "Estado del sistema" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Lectura pasiva de hardware y procesos
+      - generic [ref=e26]:
+        - button "Ejecutar diagnóstico" [disabled] [ref=e27]
+        - generic [ref=e30]: Esperando telemetría
+    - paragraph [ref=e31]: "Specter observa el equipo donde se ejecuta la API. Al diagnosticar o conversar, envía las mediciones, los nombres de los procesos y tus preguntas al modelo vía OpenRouter. Solo interpreta: no ejecuta comandos ni modifica tu sistema."
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: CPU
+        - generic [ref=e36]: —
+        - paragraph [ref=e38]: Uso actual del procesador
+      - generic [ref=e40]:
+        - generic [ref=e41]: Memoria RAM
+        - generic [ref=e43]: —
+        - paragraph [ref=e45]: Esperando telemetría
+      - generic [ref=e47]:
+        - generic [ref=e48]: Disco
+        - generic [ref=e50]: —
+        - paragraph [ref=e52]: Esperando telemetría
+      - generic [ref=e54]:
+        - generic [ref=e55]: Temperatura
+        - generic [ref=e57]: —
+        - paragraph [ref=e59]: Sensor no disponible
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "Procesos con más CPU" [level=2] [ref=e64]
+          - generic [ref=e65]: Top 5
+        - paragraph [ref=e66]: Sin datos de procesos.
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Procesos con más memoria" [level=2] [ref=e69]
+          - generic [ref=e70]: Top 5
+        - paragraph [ref=e71]: Sin datos de procesos.
+    - generic [ref=e73]:
+      - generic [ref=e75]:
+        - heading "Diagnóstico" [level=2] [ref=e76]
+        - paragraph [ref=e77]: Análisis pasivo de la telemetría mediante el motor de Specter.
+      - generic [ref=e79]:
+        - paragraph [ref=e83]: Aún no hay un diagnóstico
+        - paragraph [ref=e84]: Analiza el estado actual del equipo para obtener una explicación y recomendaciones sin modificar el sistema.
+        - button "Ejecutar diagnóstico" [ref=e85]
+  - contentinfo [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]: Specter · Diagnóstico pasivo del sistema
+      - link "API docs ↗" [ref=e89] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/docs

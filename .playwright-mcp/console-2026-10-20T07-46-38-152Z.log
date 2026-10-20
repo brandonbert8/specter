@@ -1,0 +1,47 @@
+[    1109ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[    1335ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[    1977ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/telemetry:0
+[   11973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/telemetry:0
+[  218172ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  218987ms] [LOG] [Fast Refresh] done in 891ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  219070ms] [LOG] [Fast Refresh] done in 891ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  219272ms] [LOG] [Fast Refresh] done in 891ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  404318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  404586ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  404590ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  447138ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  447359ms] [LOG] [Fast Refresh] done in 6ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  447383ms] [LOG] [Fast Refresh] done in 6ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  505184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  505436ms] [LOG] [Fast Refresh] done in 12ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  505445ms] [LOG] [Fast Refresh] done in 12ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  505541ms] [LOG] [Fast Refresh] done in 12ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  506845ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  506924ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  506975ms] [WARNING] %c%s%c Route / is rendering with server caches disabled. For this navigation, Component Metadata in React DevTools will not accurately reflect what is statically prerenderable and runtime prefetchable. See more info here: https://nextjs.org/docs/messages/cache-bypass-in-dev background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Prerender   @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  542198ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  542291ms] [LOG] [Fast Refresh] done in 82ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  542302ms] [LOG] [Fast Refresh] done in 82ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  542865ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  542914ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  576167ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  576283ms] [LOG] [Fast Refresh] done in 49ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  577072ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  577146ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  580309ms] [LOG] specter-debug-start @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  580517ms] [LOG] specter-debug-stop true @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  580518ms] [LOG] specter-debug-catch stop true @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  580519ms] [LOG] specter-debug-final @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  580601ms] [LOG] specter-debug-start @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  592180ms] [LOG] specter-debug-final @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  598464ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  598633ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  599248ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  599371ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  748950ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  749089ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  764119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  764195ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  821421ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  822071ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
+[  938378ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0dkg_next_dist_0xq5dbseafyx2._.js:719
